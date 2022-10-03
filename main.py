@@ -19,9 +19,9 @@ def boten(message):
 
     mas = types.InlineKeyboardMarkup(row_width=2)
 
-    A = types.InlineKeyboardButton(text ="USER (BFFFL)", callback_data="F1")
+    A = types.InlineKeyboardButton(text ="USER (B4)", callback_data="F1")
 
-    E = types.InlineKeyboardButton(text ="USER (BFFF2)", callback_data="F2")
+    E = types.InlineKeyboardButton(text ="USER (B6)", callback_data="F2")
 
     M = types.InlineKeyboardButton('المطور', url='https://t.me/zy_42')
 
@@ -40,9 +40,9 @@ def masg(call):
 
 		mas = types.InlineKeyboardMarkup(row_width=2)
 
-		A = types.InlineKeyboardButton(text ="USER (BFFFL)", callback_data="F1")
+		A = types.InlineKeyboardButton(text ="USER (B4)", callback_data="F1")
 
-		E = types.InlineKeyboardButton(text ="USER (BFFF2)", callback_data="F2")
+		E = types.InlineKeyboardButton(text ="USER (B6)", callback_data="F2")
 
 		M = types.InlineKeyboardButton('المطور', url='https://t.me/zy_42')
 
@@ -58,7 +58,7 @@ def masg(call):
 		sk=0
 		while True:
 			us = str(''.join(random.choice(ro)for x in range(0)))
-			ua = str(''.join(random.choice(ro)for x in range(6)))
+			ua = str(''.join(random.choice(ro)for x in range(4)))
 			username = us + u + ua
 			url = f'http://www.instagram.com/{username}/'
 			headers = {
@@ -98,7 +98,7 @@ def masg(call):
 		sk=0
 		while True:
 			us = str(''.join(random.choice(ro)for x in range(0)))
-			ua = str(''.join(random.choice(ro)for x in range(5)))
+			ua = str(''.join(random.choice(ro)for x in range(6)))
 			username = us + u + ua
 			url = f'http://www.instagram.com/{username}/'
 			headers = {
